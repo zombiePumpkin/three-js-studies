@@ -9,9 +9,7 @@ export default function App() {
     <>
       <Router>
         <Routes>
-          <Route path='/'>
-            <Playground />
-          </Route>
+          <Route path='/' element={<Playground />} />
         </Routes>
       </Router>
     </>
